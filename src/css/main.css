@@ -1,0 +1,42 @@
+:root{
+    --dark-blue: #363f5f;
+    --green: #49aa26;
+    --light-green: #3dd705;
+    --red: #e92929;
+    --black: #000;
+    --white: #fff;
+    --yellow: #ffff00;
+    --dark-green: #072412;
+    font-family: 'Neurial Grotesk', sans-serif;
+    color: var(--white);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+  background-image: url('./../assets/background.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed; /* Set background to fixed */
+  background-color: var(--black);
+  position: relative;
+  z-index: -1000;
+}
+
+@font-face {
+    font-family: 'Neurial Grotesk';
+    src: url('./../font/NeurialGrotesk-Regular.otf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Neurial Grotesk';
+    src: url('./../font/NeurialGrotesk-Bold.otf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  

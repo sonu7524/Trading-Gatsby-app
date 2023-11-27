@@ -1,0 +1,44 @@
+.navbar-layout{
+    opacity: 0.9;
+    z-index: -1;
+    backdrop-filter: blur(2px);
+}
+.header{
+    opacity: 1;
+    background-color: var(--dark-green) !important;
+    padding: 1.5rem 0rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--dark-green);
+    cursor: pointer;
+}
+.logo > p {
+    color: yellow;
+    font-size: 1.5rem;
+    background-color: var(--dark-green);
+}
+.logo > img{
+    width: 1rem;
+    height: 1rem;
+}
+
+.menu{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    background-color: var(--dark-green);
+}
+
+.menu > p{
+    cursor: pointer;
+}

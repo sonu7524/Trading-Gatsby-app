@@ -1,0 +1,103 @@
+.main{
+    padding: 3rem 0rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.main-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-size: 5rem;
+    color: var(--white);
+}
+.main-content > p{
+    letter-spacing: 0.2rem;
+}
+.glow-green{
+    background: linear-gradient(to right, #00ff00, #ffff00);
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 1px 25px var(--yellow);
+}
+.main-content> p{
+    margin-top: 2rem;
+}
+.main-content-iphones {
+    margin-top: 6rem;
+    width: 70%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iphone1,
+.iphone2,
+.iphone4 {
+    position: relative;
+    z-index: 0;
+    
+}
+
+.iphone1,
+.iphone2 {
+    width: 25%;
+    height: auto;
+    z-index: -1;
+}
+
+.iphone1 {
+    margin-right: 2rem;
+    right: 9%;
+}
+
+.iphone2 {
+    margin-left: 2rem;
+    left: 9%;
+}
+
+.iphone4 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30%;
+    height: auto;
+}
+
+.iphone-bg{
+    position: absolute;
+    top: 1rem;
+    left: 20%;
+    width: 60%;
+    height: 90%;
+    z-index: -1;
+    background-color: #00ff00;
+    border-radius: 10rem; 
+    box-shadow: 0 0 400px var(--light-green); 
+    
+}
+.tablet-content{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tablet{
+    width: 100%;
+    height: 100%;
+}
+
+.glow{
+    background: linear-gradient(to right, #00ff00, #ffff00);
+    background-clip: text;
+    color: transparent;
+}
