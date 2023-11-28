@@ -40,8 +40,9 @@ collections:
         folder: "content/phoneBlock"
         create: true
         slug: "{{slug}}"
-        filename: "{{fields.display_picture}}.md"
+        filename: "{{fields.filename}}.md"
         fields:
+          - { name: "filename", label: "Filename", widget: "string" }
           - { name: "display_picture", label: "Display Picture", widget: image }
           - { name: "body", label: "Body", widget: "markdown" }
         
