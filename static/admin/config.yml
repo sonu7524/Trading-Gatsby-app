@@ -12,23 +12,12 @@ collections:
         folder: "content/phoneDisplayBlock"
         create: true
         slug: "{{slug}}"
+        filename: "{{fields.title}}.md"
         fields:
           - { name: "title", label: "Title", widget: "string" }
           - { name: "description", label: "Description", widget: "string" }
           - { name: "phone_image", label: "Phone Image", widget: image }
           - { name: "icon_image", label: "Icon Image", widget: image }
-          - { name: "body", label: "Body", widget: "markdown" }
-
-      - name: partnerBlock
-        preview: false
-        label: "Partner Block"
-        folder: "content/partnersBlock"
-        create: true
-        slug: "{{slug}}"
-        fields:
-          - { name: "title", label: "Title", widget: "string" }
-          - {name: "company_logos", label: "Company Logos", widget: "image", allow_multiple: true, media_library: { config: { multiple: true }}} 
-          - {name: "partner_Images", label: "Partner Images", widget: "image", allow_multiple: true, media_library: { config: { multiple: true }}}   
           - { name: "body", label: "Body", widget: "markdown" }
 
       - name: review-card
@@ -39,6 +28,7 @@ collections:
         slug: "{{slug}}"
         filename: "{{fields.author}}.md"
         fields:
+          - { name: "filename", label: "Filename", widget: "hidden", default: "display" }
           - { name: "author", label: "Author", widget: "string" }
           - { name: "designation", label: "Designation", widget: "string" }
           - { name: "photo", label: "Photo", widget: "image" }
@@ -51,9 +41,9 @@ collections:
         folder: "content/phoneBlock"
         create: true
         slug: "{{slug}}"
-        filename: "{{title}}.md"
+        filename: "{{fields.filename}}.md"
         fields:
-          - { name: "title", label: "Title", widget: "string" }
+          - { name: "filename", label: "Filename", widget: "hidden", default: "display" }
           - { name: "display_picture", label: "Display Picture", widget: image }
           - { name: "body", label: "Body", widget: "markdown" }
         
