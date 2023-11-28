@@ -1,0 +1,26 @@
+footer{
+    background-color: var(--cor-12);
+    color: white;
+    background-color: #229851;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 2rem 4rem;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+}
+
+footer > p {
+    width: 60%;
+    text-align: center;
+}
+.social-links{
+    display: flex;
+    gap: 1rem;
+}

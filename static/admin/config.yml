@@ -37,13 +37,14 @@ collections:
         folder: "content/reviewCard"
         create: true
         slug: "{{slug}}"
+        filename: "{{fields.author}}.md"
         fields:
           - { name: "author", label: "Author", widget: "string" }
           - { name: "designation", label: "Designation", widget: "string" }
           - { name: "image", label: "Image", widget: "image" }
           - { name: "review", label: "Review", widget: "string" }
           - { name: "body", label: "Body", widget: "markdown" }
-        filename: "{{fields.author}}-{{year}}-{{month}}-{{day}}"
+        
 
 
 

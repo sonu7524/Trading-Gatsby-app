@@ -8,7 +8,6 @@
     background-color: var(--white);
     
     padding: 1rem 8rem;
-    width: 82%;
     height: 85vh;
 }
 
@@ -20,13 +19,15 @@
     color: var(--black);
     font-size: 1.3rem;
     letter-spacing: 1px;
+    width: 60%;
+    text-align: center;
 }
 
 .review-cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
     gap: 2rem;
-    width: 100%;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -49,11 +50,22 @@
 
 }
 .review-card-text{
-    width: 20%;
+    width: 30%;
+}
+.review-card-text > p {
+    font-size: small;
+    color: rgb(84, 84, 84);
 }
 .review-card-image{
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+.frame{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 65%;
 }
 
