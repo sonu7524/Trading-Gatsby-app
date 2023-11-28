@@ -17,17 +17,17 @@
     font-size: 5rem;
     color: var(--white);
 }
-.main-content > p{
-    letter-spacing: 0.2rem;
-}
 .glow-green{
     background: linear-gradient(to right, #00ff00, #ffff00);
     background-clip: text;
+    background-size: 100%;
     color: transparent;
     text-shadow: 0 1px 25px var(--yellow);
 }
 .main-content> p{
     margin-top: 2rem;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
 }
 .main-content-iphones {
     margin-top: 6rem;
@@ -89,6 +89,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 1rem;
+}
+
+.tablet-content > p{
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
 }
 
 .tablet{
@@ -97,7 +104,31 @@
 }
 
 .glow{
-    background: linear-gradient(to right, #00ff00, #ffff00);
+    background: #ffff00;
     background-clip: text;
     color: transparent;
+}
+
+.unlock{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.unlock-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: -2rem;
+}
+
+.unlock-content > p{
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
 }

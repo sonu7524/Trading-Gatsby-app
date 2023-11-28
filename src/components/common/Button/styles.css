@@ -4,11 +4,13 @@
     gap: 0.4rem;
     border: none;
     border-radius: 5px;
-    background: linear-gradient(to right, yellow, var(--light-green)) no-repeat;
-    background-size: 300%;
+    background: linear-gradient(to right, #ffff00, #00ff00);
+    background-size: 100%;
     background-position: left center;
     font-weight: bold;
     box-shadow: 0 5px 20px var(--light-green);
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    font-size: 1rem;
   }
+

@@ -5,8 +5,11 @@ import iphone4 from "../../assets/iphone4.png";
 import tablet from "../../assets/tablet.png";
 
 import "./styles.css";
-import BoxStyle from "../common/BoxStyle";
-let data =[
+import GreenBoxStyle from "../common/BoxStyle/Green";
+import Button from "../common/Button";
+import WhiteBoxStyle from "../common/BoxStyle/White";
+import PhoneDisplay from "../PhoneDisplay";
+let data1 =[
     {
         title:"00%",
         description:"Conversion Fee"
@@ -24,6 +27,8 @@ let data =[
         description:"Leverage"
     }
 ]
+
+const data2 = ["Same Strategy", "Same Indicators", "Better Leverage", "24x7 Trading"]
 export default function MainContent() {
     return (
         <div className="main">
@@ -38,13 +43,23 @@ export default function MainContent() {
                     <img className="iphone2" src={iphone2} alt="iphone2" />
                 </div>
             </div>
-            <BoxStyle dataMap={data} styleClass="main-content-stats" />
+            <GreenBoxStyle dataMap={data1} styleClass="main-content-stats" />
             <div className="tablet-content">
                 <h1 className="title">Explore the Markets</h1>
                 <h1 className="title">like it is your <b className="glow">Playground.</b></h1>
-                <p>Search for your fav</p>
+                <p>Search for your favorite coins and stay ahead of the market</p>
                 <img className="tablet" src={tablet} alt="tablet" />
+                <Button text="EXPLORE MARKETS" />
             </div>
+            <div className="unlock">
+                <h1 className="title"><b className="glow">Unlock</b> New Frontiers.</h1>
+                <div className="unlock-content">
+                    <p>Are you a stock trader looking for new opportunities to make</p>
+                    <p>money? We got you covered!</p>
+                </div>
+                <WhiteBoxStyle dataMap={data2} styleClass="main-content-stats" />
+            </div>
+            <PhoneDisplay />
         </div>
     );
 }

@@ -1,0 +1,26 @@
+.white-boxstyle{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border: 0.1px solid #7b7b7b;
+    background-color: black;
+    gap: 1rem;
+}
+
+.white-stats{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.content-stat{
+    display: flex;
+}
+.white-line{
+    background-color: rgb(87, 87, 87);
+    margin-top: 1.5rem;
+    width: 1px;
+    height: 4rem;
+    z-index: 5;
+}

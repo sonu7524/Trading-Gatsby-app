@@ -1,8 +1,8 @@
 import React from "react";
 import "./styles.css";
-export default function BoxStyle({ dataMap, styleClass }) {
+export default function GreenBoxStyle({ dataMap }) {
     return (
-        <div className={styleClass}>
+        <div className="green-boxstyle">
                 {
                     dataMap.map(data => (
                         <div key={data.id} className="content-stat">
