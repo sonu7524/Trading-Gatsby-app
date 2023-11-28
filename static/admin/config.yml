@@ -50,9 +50,10 @@ collections:
         label: "Phone Block"
         folder: "content/phoneBlock"
         create: true
-        slug: "{{name}}"
-        filename: "{{name}}.md"
+        slug: "{{slug}}"
+        filename: "{{title}}.md"
         fields:
+          - { name: "title", label: "Title", widget: "string" }
           - { name: "display_picture", label: "Display Picture", widget: image }
           - { name: "body", label: "Body", widget: "markdown" }
         
