@@ -1,0 +1,20 @@
+backend:
+  name: "git-gateway"
+  branch: "main"
+  
+media_folder: "static/images"
+public_folder: "../../static/images"
+
+collections:
+  - name: phoneDisplayBlock
+    preview: false
+    label: "Phone Display Block"
+    folder: "content/phoneDisplayBlock"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "description", label: "Description", widget: "string" }
+      - { name: "phone_image", label: "Phone Image", widget: image }
+      - { name: "icon_image", label: "Icon Image", widget: image }
+      - { name: "body", label: "Body", widget: "markdown" }
