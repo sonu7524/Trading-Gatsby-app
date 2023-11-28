@@ -43,7 +43,7 @@ collections:
           - { name: "image", label: "Image", widget: "image" }
           - { name: "review", label: "Review", widget: "string" }
           - { name: "body", label: "Body", widget: "markdown" }
-        filename: "{{fields.author}}-{{year}}-{{month}}-{{day}}-{{hour}}-{{minute}}-{{second}}"
+        filename: "{{fields.author}}-{{year}}-{{month}}-{{day}}"
 
 
 
