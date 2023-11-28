@@ -37,7 +37,8 @@ export default function PhoneDisplay() {
   return (
     <div className="phone-display" >
       {contentData.map(({ node }) => (
-        <div className="phone-display-content" key={node.frontmatter.title} >
+        node.frontmatter.title ? (
+          <div className="phone-display-content" key={node.frontmatter.title} >
           <div classNam e="phone-display-image">
             <GatsbyImage
                     image={getImage(node.frontmatter.phone_image)}
@@ -53,9 +54,10 @@ export default function PhoneDisplay() {
                 />
                 <h1>{node.frontmatter.title}</h1>
                 <p>{node.frontmatter.description}</p>
-                <div className="phone-display-button">{node.frontmatter.title ? <Button text="TRADE NOW" /> : null}</div>
+                <div className="phone-display-button"><Button text="TRADE NOW" /></div>
           </div>         
         </div>
+        ) : null
       ))}
     </div>
   );

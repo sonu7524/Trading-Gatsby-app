@@ -3,6 +3,7 @@ import iphone1 from "../../assets/iphone1.png";
 import iphone2 from "../../assets/iphone2.png";
 import iphone4 from "../../assets/iphone4.png";
 import tablet from "../../assets/tablet.png";
+import densityPhone from "../../assets/density-phone.png";
 
 import "./styles.css";
 import GreenBoxStyle from "../common/BoxStyle/Green";
@@ -62,6 +63,11 @@ export default function MainContent() {
             </div>
             <PhoneDisplay />
             <ReviewContent />
+            <div className="start">
+                <h1 className="title">Get Started Now.</h1>
+                <img className="densityPhone" src={densityPhone} alt="densityPhone" />
+                <button className="start-button">Start Trading!</button>
+            </div>
         </div>
     );
 }

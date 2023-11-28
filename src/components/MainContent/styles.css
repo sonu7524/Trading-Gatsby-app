@@ -132,3 +132,42 @@
     font-size: 1.3rem;
     letter-spacing: 1px;
 }
+
+.start{
+    position: relative;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.title{
+    background: linear-gradient(to bottom, white, rgb(82, 82, 82));
+    background-clip: text;
+    background-size: 100%;
+    color: transparent;
+}
+
+.densityPhone{
+    position: absolute;
+    width: 50%;
+    top: 9%;
+}
+
+.start-button{
+    z-index: 1000;
+    position: absolute;
+    bottom: 7rem;
+    background: linear-gradient(to right, #ffff00, #00ff00);
+    background-size: 100%;
+    background-position: left center;
+    font-weight: bold;
+    box-shadow: 0 5px 20px var(--light-green);
+    padding: 1rem 8rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 2rem;
+}
+
