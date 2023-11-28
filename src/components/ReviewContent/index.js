@@ -1,6 +1,5 @@
 import React from "react";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
-import frame from "../../../static/images/frame.png";
 import "./styles.css";
 import { graphql, useStaticQuery } from "gatsby";
 export default function ReviewContent() {
@@ -36,7 +35,6 @@ export default function ReviewContent() {
                 {contentData.map(({ node }) => (
                     node.frontmatter.review !== null ? (
                         <div className="review-card" key={node.id}>
-                            <img className="frame" src={frame} alt="frame" />
                           <p>{node.frontmatter.review}</p>
                           <div className="review-card-footer">
                             <div className="review-card-text">
