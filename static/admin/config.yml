@@ -26,20 +26,8 @@ collections:
         create: true
         slug: "{{slug}}"
         fields:
-          - name: "company_logo" 
-            label: "Company Logos"
-            widget: "image", 
-            allow_multiple: true
-            media_library:
-              config:
-                multiple: true
-          - name: "partner_Images" 
-            label: "Partner Images"
-            widget: "image", 
-            allow_multiple: true
-            media_library:
-              config:
-                multiple: true
+          - {name: "company_logos", label: "Company Logos", widget: "image", allow_multiple: true, media_library: { config: { multiple: true }}} 
+          - {name: "partner_Images", label: "Partner Images", widget: "image", allow_multiple: true, media_library: { config: { multiple: true }}}   
           - { name: "body", label: "Body", widget: "markdown" }
 
 
