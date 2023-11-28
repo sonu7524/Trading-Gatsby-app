@@ -28,7 +28,6 @@ collections:
         slug: "{{slug}}"
         filename: "{{fields.author}}.md"
         fields:
-          - { name: "filename", label: "Filename", widget: "hidden", default: "display" }
           - { name: "author", label: "Author", widget: "string" }
           - { name: "designation", label: "Designation", widget: "string" }
           - { name: "photo", label: "Photo", widget: "image" }
@@ -41,9 +40,8 @@ collections:
         folder: "content/phoneBlock"
         create: true
         slug: "{{slug}}"
-        filename: "{{fields.filename}}.md"
+        filename: "{{fields.display_picture}}.md"
         fields:
-          - { name: "filename", label: "Filename", widget: "hidden", default: "display" }
           - { name: "display_picture", label: "Display Picture", widget: image }
           - { name: "body", label: "Body", widget: "markdown" }
         
