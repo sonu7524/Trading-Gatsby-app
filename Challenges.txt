@@ -1,0 +1,4 @@
+Challenges:
+- Setup headless CMS
+
+As i am fresher, It was my first time to work with headless cms so connection and integration of Nelify CMS is quite a difficult task but using some online tutorials i was able to make it quick and responsive with Gatsby React
