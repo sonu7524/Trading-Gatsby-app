@@ -18,3 +18,14 @@ collections:
       - { name: "phone_image", label: "Phone Image", widget: image }
       - { name: "icon_image", label: "Icon Image", widget: image }
       - { name: "body", label: "Body", widget: "markdown" }
+
+  - name: partnerBlock
+    preview: false
+    label: "Partner Block"
+    folder: "content/partnersBlock"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - field: { label: company_logo, name: company_logo, widget: image }
+      - field: { label: partner_Image, name: partner_Image, widget: image }
+      - { name: "body", label: "Body", widget: "markdown" }
