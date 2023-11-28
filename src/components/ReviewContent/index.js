@@ -1,6 +1,6 @@
 import React from "react";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
-import frame from "../../assets/frame.png";
+import frame from "../../../static/images/frame.png";
 import "./styles.css";
 import { graphql, useStaticQuery } from "gatsby";
 export default function ReviewContent() {
