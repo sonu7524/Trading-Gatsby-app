@@ -26,8 +26,22 @@ collections:
         create: true
         slug: "{{slug}}"
         fields:
+          - { name: "title", label: "Title", widget: "string" }
           - {name: "company_logos", label: "Company Logos", widget: "image", allow_multiple: true, media_library: { config: { multiple: true }}} 
           - {name: "partner_Images", label: "Partner Images", widget: "image", allow_multiple: true, media_library: { config: { multiple: true }}}   
+          - { name: "body", label: "Body", widget: "markdown" }
+
+      - name: review-card
+        preview: false
+        label: "Review Card"
+        folder: "content/reviewCard"
+        create: true
+        slug: "{{slug}}"
+        fields:
+          - { name: "author", label: "Author", widget: "string" }
+          - { name: "designation", label: "Designation", widget: "string" }
+          - { name: "image", label: "Image", widget: image }
+          - { name: "review", label: "Review", widget: "string" }
           - { name: "body", label: "Body", widget: "markdown" }
 
 

@@ -26,5 +26,10 @@
 .phone-display-text > p {
     margin-top: 1rem;
     letter-spacing: 1px;
+    color: rgb(174, 174, 174);
+}
+
+.phone-display-button{
+    margin-top: 2rem;
 }
 

@@ -1,0 +1,59 @@
+.review-content{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: var(--white);
+    
+    padding: 1rem 8rem;
+    width: 82%;
+    height: 85vh;
+}
+
+.review-content > h1{
+    color: var(--black);
+}
+
+.review-content > p{
+    color: var(--black);
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+.review-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.review-card{
+    background-color: #f2f2f2;
+    color: black;
+    padding: 1.5rem;
+    width: 70%;
+    height: 110%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    position: relative;
+}
+
+.review-card > p {
+    color: rgb(84, 84, 84);
+
+}
+.review-card-text{
+    width: 20%;
+}
+.review-card-image{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+

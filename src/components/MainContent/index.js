@@ -9,6 +9,7 @@ import GreenBoxStyle from "../common/BoxStyle/Green";
 import Button from "../common/Button";
 import WhiteBoxStyle from "../common/BoxStyle/White";
 import PhoneDisplay from "../PhoneDisplay";
+import ReviewContent from "../ReviewContent";
 let data1 =[
     {
         title:"00%",
@@ -60,6 +61,7 @@ export default function MainContent() {
                 <WhiteBoxStyle dataMap={data2} styleClass="main-content-stats" />
             </div>
             <PhoneDisplay />
+            <ReviewContent />
         </div>
     );
 }
