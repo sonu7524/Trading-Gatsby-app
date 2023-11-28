@@ -134,6 +134,7 @@
 }
 
 .start{
+    margin-top: 5rem;
     position: relative;
     height: 110vh;
     display: flex;
@@ -142,19 +143,17 @@
     gap: 3rem;
 }
 
-.title{
-    background: linear-gradient(to bottom, white, rgb(82, 82, 82));
-    background-clip: text;
-    background-size: 100%;
-    color: transparent;
-}
-
 .densityPhone{
     position: absolute;
     width: 50%;
     top: 9%;
 }
-
+.start > h1 {
+    background: linear-gradient(to bottom, white, rgb(82, 82, 82));
+    background-clip: text;
+    background-size: 100%;
+    color: transparent;
+}
 .start-button{
     z-index: 1000;
     position: absolute;
@@ -170,4 +169,6 @@
     transition: all 0.3s ease-in-out;
     font-size: 2rem;
 }
-
+.statistics{
+    margin: 10rem 0rem;
+}

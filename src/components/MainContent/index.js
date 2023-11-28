@@ -4,6 +4,7 @@ import iphone2 from "../../assets/iphone2.png";
 import iphone4 from "../../assets/iphone4.png";
 import tablet from "../../assets/tablet.png";
 import densityPhone from "../../assets/density-phone.png";
+import graph from "../../assets/graph.png";
 
 import "./styles.css";
 import GreenBoxStyle from "../common/BoxStyle/Green";
@@ -12,6 +13,7 @@ import WhiteBoxStyle from "../common/BoxStyle/White";
 import PhoneDisplay from "../PhoneDisplay";
 import ReviewContent from "../ReviewContent";
 import PhoneUI from "../PhoneUI";
+import FeaturesUI from "../FeaturesUI";
 let data1 =[
     {
         title:"00%",
@@ -48,6 +50,7 @@ export default function MainContent() {
             </div>
             <GreenBoxStyle dataMap={data1} styleClass="main-content-stats" />
             <PhoneUI />
+            <FeaturesUI />
             <div className="tablet-content">
                 <h1 className="title">Explore the Markets</h1>
                 <h1 className="title">like it is your <b className="glow">Playground.</b></h1>
@@ -63,6 +66,7 @@ export default function MainContent() {
                 </div>
                 <WhiteBoxStyle dataMap={data2} styleClass="main-content-stats" />
             </div>
+            <img className="statistics" style={{width: "60%"}} src={graph} alt="graph" />
             <PhoneDisplay />
             <ReviewContent />
             <div className="start">
