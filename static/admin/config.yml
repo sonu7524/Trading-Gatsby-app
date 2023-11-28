@@ -44,6 +44,16 @@ collections:
           - { name: "photo", label: "Photo", widget: "image" }
           - { name: "review", label: "Review", widget: "string" }
           - { name: "body", label: "Body", widget: "markdown" }
+
+      - name: phone_block
+        preview: false
+        label: "Phone Block"
+        folder: "content/phoneBlock"
+        create: true
+        slug: "{{slug}}"
+        fields:
+          - { name: "display_picture", label: "Display Picture", widget: image }
+          - { name: "body", label: "Body", widget: "markdown" }
         
 
 

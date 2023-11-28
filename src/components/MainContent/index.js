@@ -11,6 +11,7 @@ import Button from "../common/Button";
 import WhiteBoxStyle from "../common/BoxStyle/White";
 import PhoneDisplay from "../PhoneDisplay";
 import ReviewContent from "../ReviewContent";
+import PhoneUI from "../PhoneUI";
 let data1 =[
     {
         title:"00%",
@@ -46,6 +47,7 @@ export default function MainContent() {
                 </div>
             </div>
             <GreenBoxStyle dataMap={data1} styleClass="main-content-stats" />
+            <PhoneUI />
             <div className="tablet-content">
                 <h1 className="title">Explore the Markets</h1>
                 <h1 className="title">like it is your <b className="glow">Playground.</b></h1>
