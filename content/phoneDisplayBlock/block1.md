@@ -1,7 +1,7 @@
 ---
 title: Create an Account
-phone_image: "../../src/assets/iphone4.png"
-icon_image: "../../src/assets/account.png"
 description: Register & Complete your Verification in less than 2 minutes
+phone_image: ../../static/images/iphone4.png
+icon_image: ../../static/images/account.png
 ---
 lapino
