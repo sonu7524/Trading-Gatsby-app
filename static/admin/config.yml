@@ -23,15 +23,23 @@ collections:
         preview: false
         label: "Partner Block"
         folder: "content/partnersBlock"
-        allow_multiple: true
-        media_library:
-              config:
-                multiple: true
         create: true
         slug: "{{slug}}"
         fields:
-          - { name: "company_logo", label: "Company Logos", widget: "list", types: [{ name: "image", widget: image }] }
-          - { name: "partner_Images", label: "Partner Images", widget: "list", types: [{ name: "image", widget: image }] }
+          - name: "company_logo" 
+            label: "Company Logos"
+            widget: "image", 
+            allow_multiple: true
+            media_library:
+              config:
+                multiple: true
+          - name: "partner_Images" 
+            label: "Partner Images"
+            widget: "image", 
+            allow_multiple: true
+            media_library:
+              config:
+                multiple: true
           - { name: "body", label: "Body", widget: "markdown" }
 
 
