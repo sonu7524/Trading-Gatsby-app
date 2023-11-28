@@ -37,7 +37,7 @@ export default function PhoneDisplay() {
     <div className="phone-display">
       {contentData.map(({ node }) => (
         <div className="phone-display-content" key={node.frontmatter.title}>
-          <div className="phone-display-image">
+          <div classNam e="phone-display-image">
             <GatsbyImage
                     image={getImage(node.frontmatter.phone_image)}
                     alt="phone"
