@@ -41,7 +41,7 @@ export default function PartnerBlock() {
                     node.frontmatter.partner_name !== null ? (
                         <div className="partner-card" key={node.id}>
                           <div className="partner-info">
-                            <h1>{node.frontmatter.partner_name}</h1>
+                            <h2>{node.frontmatter.partner_name}</h2>
                             <p>{node.frontmatter.partner_designation}</p>
                           </div>
                           <div className="social-media-icon">
