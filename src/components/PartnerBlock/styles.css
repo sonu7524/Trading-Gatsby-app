@@ -38,11 +38,13 @@
     justify-content: center;
     gap: 2rem;
 }
-
-.partner-card{ 
+.partner-card{
+    position: relative;
+}
+.partner-info-content{ 
     color: black;
-    padding: 1.5rem;
-    width: 90%;
+    padding: 1rem;
+    width: 18vw;
     height: 38vh;
     display: flex;
     flex-direction: column;
@@ -71,10 +73,10 @@
     font-size: small;
     color: rgb(142, 142, 142);
 }
-.partner-photo{
+.partner-image{
+    width: 70%;
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 70%;
 }
 

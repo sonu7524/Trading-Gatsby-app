@@ -40,21 +40,24 @@ export default function PartnerBlock() {
                 {contentData.map(({ node }) => (
                     node.frontmatter.partner_name !== null ? (
                         <div className="partner-card" key={node.id}>
-                          <div className="partner-info">
-                            <h2>{node.frontmatter.partner_name}</h2>
-                            <p>{node.frontmatter.partner_designation}</p>
-                          </div>
-                          <div className="social-media-icon">
-                            <Link to="/"><GatsbyImage
-                              image={getImage(node.frontmatter.social_media_image)}
-                              alt="partner_photo"
-                            /></Link>
+                          <div className="partner-info-content">
+                            <div className="partner-info">
+                              <h2>{node.frontmatter.partner_name}</h2>
+                              <p>{node.frontmatter.partner_designation}</p>
+                            </div>
+                            <div className="social-media-icon">
+                              <Link to="/"><GatsbyImage
+                                image={getImage(node.frontmatter.social_media_image)}
+                                alt="partner_photo"
+                              /></Link>
+                            </div>
                           </div> 
-                          <GatsbyImage
-                          className="partner-photo"
-                            image={getImage(node.frontmatter.partner_image)}
-                            alt="partner_photo"
-                          />
+                          <div className="partner-image">
+                            <GatsbyImage
+                              image={getImage(node.frontmatter.partner_image)}
+                              alt="partner_photo"
+                            />
+                          </div>
                         </div>
                       ) : null
                 ))}
