@@ -59,4 +59,7 @@
     .feature-cards{
         flex-direction: column;
     } 
+    .feature-card{
+        width: 40vw;
+    }
 }

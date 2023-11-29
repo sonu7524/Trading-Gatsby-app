@@ -49,6 +49,7 @@
     }
     .content-stat{
         width: fit-content;
+        text-align: center;
     }
 }
 
