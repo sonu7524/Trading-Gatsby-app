@@ -20,8 +20,6 @@
 .partner-content > h1{
     color: var(--white);
     width: 50%;
-    text-align: center;
-    font-size: 4rem;
 }
 
 .partner-content > p{
@@ -40,6 +38,12 @@
 }
 .partner-card{
     position: relative;
+    
+    background: url("../../assets/Frame.png") no-repeat;
+    background-position: top right;
+    background-size: 65%;
+    background-color: #434343;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
 }
 .partner-info-content{ 
     color: black;
@@ -51,11 +55,9 @@
     justify-content: space-between;
     gap: 1rem;
     position: relative;
-    background: url("../../assets/Frame.png") no-repeat;
-    background-position: top right;
-    background-size: 65%;
-    background-color: #434343;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+    
+    
+   
 }
 
 .partner-card > p {
@@ -80,3 +82,15 @@
     right: 0;
 }
 
+@media screen and (max-width: 786px) {
+    .partner-block{
+        padding: 3rem 0rem;
+    }
+    .partner-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .partner-card{
+        width: 50vw;
+    }
+}

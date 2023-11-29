@@ -34,3 +34,19 @@
     margin-top: 2rem;
 }
 
+@media (max-width: 786px) {
+    .phone-display{
+        width: 100%;
+    }
+    .phone-display-text{
+        width: 100%;
+    }
+
+    .phone-display-text > h1{
+        font-size: 1rem;
+    }
+    .phone-display-text > p{
+        font-size: 0.6rem;
+    }
+}
+

@@ -54,3 +54,9 @@
     z-index: -1;
     position: relative;
 }
+
+@media screen and (max-width: 850px) {
+    .feature-cards{
+        flex-direction: column;
+    } 
+}

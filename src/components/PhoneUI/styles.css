@@ -5,4 +5,16 @@
     align-items: center;
     justify-content: center;
     gap: 5rem;
+    width: 100%;
 }
+
+@media (max-width: 500px) {
+    .phone-ui{
+        gap: 2rem;
+    }
+    .phone-ui-image{
+        width: 40%;
+    }
+}
+    
+

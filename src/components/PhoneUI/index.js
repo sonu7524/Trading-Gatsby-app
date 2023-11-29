@@ -28,6 +28,7 @@ export default function PhoneUI() {
             {data.map(({node})=> (
                 node.frontmatter.display_picture !== null ? (
                     <GatsbyImage
+                        className="phone-ui-image"
                         image={getImage(node.frontmatter.display_picture)}
                         alt="display_picture"
                     />

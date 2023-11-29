@@ -34,9 +34,30 @@
     color: var(--yellow);
     font-weight: bold;
     z-index: 1;
+    width: 100%;
 }
 .stats > p {
     color: rgb(163, 163, 163);
     font-size: 0.9rem;
     letter-spacing: 1px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .green-boxstyle{
+        width: 95%;
+    }
+    .content-stat{
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .green-boxstyle{
+        flex-direction: column;
+        width: 60%;
+    }
+    .line{
+        display: none;
+    }
 }

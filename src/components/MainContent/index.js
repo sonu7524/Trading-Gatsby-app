@@ -42,7 +42,7 @@ export default function MainContent() {
             <div className="main-content">
                 <h1 className="main-title">It's time to trade,</h1>
                 <h1 className="main-title">the <b className="glow-green">future.</b></h1>
-                <p>Trade BTC. ETH Futures With 125x Leverage And Earn Rewards.</p>
+                <p className="subtitle">Trade BTC. ETH Futures With 125x Leverage And Earn Rewards.</p>
                 <div className="main-content-iphones">
                     <div className="iphone-bg"></div>
                     <img className="iphone1" src={iphone1} alt="iphone1" />
@@ -56,15 +56,14 @@ export default function MainContent() {
             <div className="tablet-content">
                 <h1 className="title">Explore the Markets</h1>
                 <h1 className="title">like it is your <b className="glow">Playground.</b></h1>
-                <p>Search for your favorite coins and stay ahead of the market</p>
+                <p className="subtitle">Search for your favorite coins and stay ahead of the market</p>
                 <img className="tablet" src={tablet} alt="tablet" />
                 <Button text="EXPLORE MARKETS" />
             </div>
             <div className="unlock">
                 <h1 className="title"><b className="glow">Unlock</b> New Frontiers.</h1>
                 <div className="unlock-content">
-                    <p>Are you a stock trader looking for new opportunities to make</p>
-                    <p>money? We got you covered!</p>
+                    <p className="subtitle">Are you a stock trader looking for new opportunities to make money? We got you covered!</p>
                 </div>
                 <WhiteBoxStyle dataMap={data2} styleClass="main-content-stats" />
             </div>

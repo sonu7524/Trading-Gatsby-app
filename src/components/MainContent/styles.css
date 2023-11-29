@@ -15,10 +15,16 @@
 }
 .main-title{
     font-size: 5rem;
+    text-align: center;
 }
 .title{
     font-size: 4rem;
     color: var(--white);
+    text-align: center;
+}
+.subtitle{
+    width: 70%;
+    text-align: center;
 }
 .glow-green{
     background: linear-gradient(to right, #00ff00, #ffff00);
@@ -137,13 +143,13 @@
 }
 
 .start{
-    margin-top: 5rem;
     position: relative;
     height: 110vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 3rem;
+    margin-bottom: 2rem;
 }
 
 .densityPhone{
@@ -178,4 +184,32 @@
 
 .community{
     margin: -2rem 0rem;
+}
+
+@media screen and (max-width: 786px) {
+    .main-title{
+        font-size: 3rem;
+    }
+
+    .title{
+        font-size: 2rem;
+    }
+    .main-content> p{
+        font-size: 1rem;
+    }
+    .unlock-content{
+        font-size: 0.5rem;
+    }
+    .subtitle{
+        font-size: 0.8rem;
+        letter-spacing: 0px;
+    }
+    .start{
+        height: 70vh;
+    }
+    .start-button{
+        font-size: 1rem;
+        padding: 0.5rem 4rem;
+        bottom: 2rem;
+    }
 }

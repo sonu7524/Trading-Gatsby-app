@@ -33,8 +33,8 @@ export default function PartnerBlock() {
     return (
         <div className="partner-block">
             <div className="partner-content">
-              <h1>Meet the <b className="glow">Visionaries </b>behind Density.</h1>
-              <p>No Complexity of Trading Fee, generate volume and win</p>
+              <h1 className="title">Meet the <b className="glow">Visionaries </b>behind Density.</h1>
+              <p className="subtitle">No Complexity of Trading Fee, generate volume and win</p>
             </div>
             <div className="partner-cards">
                 {contentData.map(({ node }) => (
