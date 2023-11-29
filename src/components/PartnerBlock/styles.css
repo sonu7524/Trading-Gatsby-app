@@ -65,6 +65,7 @@
 }
 .partner-info > h2 {
     color: white;
+    width: 60%;
 }
 .partner-info > p {
     font-size: small;
