@@ -46,10 +46,11 @@
 }
 
 .highlight{
-
+    
     background: linear-gradient(to bottom, #f9f901, #73ff00)  no-repeat;
     color: black;
     box-shadow: 0 5px 30px var(--light-green);
     font-weight: bold;
     z-index: -1;
+    position: relative;
 }

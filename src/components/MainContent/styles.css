@@ -13,8 +13,11 @@
     align-items: center;
     justify-content: center;
 }
-.title{
+.main-title{
     font-size: 5rem;
+}
+.title{
+    font-size: 4rem;
     color: var(--white);
 }
 .glow-green{

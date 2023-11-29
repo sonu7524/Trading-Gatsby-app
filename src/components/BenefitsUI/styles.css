@@ -1,75 +1,63 @@
-.review-content{
+.benefits-ui{
     margin-top: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
     background-color: var(--white);
-    
-    padding: 1rem 8rem;
-    height: 85vh;
+    width: 100%;
+    height: 100vh;
+    gap: 1rem;
 }
 
-.review-content > h1{
+.benefits-ui > h1{
     color: var(--black);
 }
 
-.review-content > p{
+.benefits-ui > p{
     color: var(--black);
     font-size: 1.3rem;
     letter-spacing: 1px;
-    width: 60%;
+    width: 40%;
     text-align: center;
 }
 
-.review-cards{
+.benefit-cards{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     gap: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-.review-card{
+.benefit-card{
     
     color: black;
     padding: 1.5rem;
-    width: 70%;
-    height: 110%;
+    width: 25vw;
+    height: 50vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 1rem;
+    justify-content: space-evenly;
     position: relative;
     background: url("../../assets/Frame.png") no-repeat;
     background-position: top right;
     background-size: 65%;
     background-color: #f2f2f2;
 }
-
-.review-card > p {
+.benefit-card > h1{
+    width: 90%;
+}
+.benefit-card > p {
     color: rgb(84, 84, 84);
-
-}
-.review-card-text{
-    width: 30%;
-}
-.review-card-text > p {
-    font-size: small;
-    color: rgb(84, 84, 84);
-}
-.review-card-image{
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    width: 80%;
 }
 
-.frame{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 60%;
+.percent{
+    width: 40%;
 }
 
+.manager{
+    width: 35%;
+}

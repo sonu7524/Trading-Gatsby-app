@@ -14,6 +14,7 @@ import PhoneDisplay from "../PhoneDisplay";
 import ReviewContent from "../ReviewContent";
 import PhoneUI from "../PhoneUI";
 import FeaturesUI from "../FeaturesUI";
+import BenefitsUI from "../BenefitsUI";
 let data1 =[
     {
         title:"00%",
@@ -38,8 +39,8 @@ export default function MainContent() {
     return (
         <div className="main">
             <div className="main-content">
-                <h1 className="title">It's time to trade,</h1>
-                <h1 className="title">the <b className="glow-green">future.</b></h1>
+                <h1 className="main-title">It's time to trade,</h1>
+                <h1 className="main-title">the <b className="glow-green">future.</b></h1>
                 <p>Trade BTC. ETH Futures With 125x Leverage And Earn Rewards.</p>
                 <div className="main-content-iphones">
                     <div className="iphone-bg"></div>
@@ -67,10 +68,11 @@ export default function MainContent() {
                 <WhiteBoxStyle dataMap={data2} styleClass="main-content-stats" />
             </div>
             <img className="statistics" style={{width: "60%"}} src={graph} alt="graph" />
+            <BenefitsUI />
             <PhoneDisplay />
             <ReviewContent />
             <div className="start">
-                <h1 className="title">Get Started Now.</h1>
+                <h1 className="main-title">Get Started Now.</h1>
                 <img className="densityPhone" src={densityPhone} alt="densityPhone" />
                 <button className="start-button">Start Trading!</button>
             </div>
