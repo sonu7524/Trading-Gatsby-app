@@ -29,7 +29,7 @@ export default function ReviewContent() {
     return (
         <div className="review-content">
             <h1 className="title">Don’t take our word for it.</h1>
-            <p>Hear it from our expert community of traders who have made insane amounts in a short amount of time</p>
+            <p className="subtitle">Hear it from our expert community of traders who have made insane amounts in a short amount of time</p>
 
             <div className="review-cards">
                 {contentData.map(({ node }) => (

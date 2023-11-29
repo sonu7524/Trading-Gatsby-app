@@ -7,7 +7,7 @@ export default function FeaturesUI() {
     return (
         <div className="features-ui">
             <h1 className="title">Trade More. <b className="glow">Pay Less.</b></h1>
-            <p>Our low Fees Supercharge Your Profits</p>
+            <p className="subtitle">Our low Fees Supercharge Your Profits</p>
             <div className="feature-cards">
                 <div className="feature-card">
                     <img src={coindcx} alt="densityLogo" />

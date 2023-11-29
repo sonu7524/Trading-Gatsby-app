@@ -7,7 +7,7 @@ export default function BenefitsUI() {
     return (
         <div className="benefits-ui">
             <h1 className="title">Start Small. Earn Big.</h1>
-            <p>
+            <p className="subtitle">
             Deposity a minimum of 1000 and get a Deposit bonus + dedicagted relationship manager
             </p>
             <div className="benefit-cards">
