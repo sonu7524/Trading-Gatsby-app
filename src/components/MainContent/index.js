@@ -5,7 +5,7 @@ import iphone4 from "../../assets/iphone4.png";
 import tablet from "../../assets/tablet.png";
 import densityPhone from "../../assets/density-phone.png";
 import graph from "../../assets/graph.png";
-
+import community from "../../assets/community.png";
 import "./styles.css";
 import GreenBoxStyle from "../common/BoxStyle/Green";
 import Button from "../common/Button";
@@ -72,6 +72,7 @@ export default function MainContent() {
             <BenefitsUI />
             <PhoneDisplay />
             <ReviewContent />
+            <img className="community" style={{width: "100%"}} src={community} alt="community" />
             <PartnerBlock />
             <div className="start">
                 <h1 className="main-title">Get Started Now.</h1>
