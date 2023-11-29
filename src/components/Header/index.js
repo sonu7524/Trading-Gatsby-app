@@ -25,13 +25,10 @@ export default function Header() {
                     <p>Fees</p>
                     <Button text="TRADE NOW" />
                 </div>
-                <div className={`toggle-button ${isMobileMenuOpen ? 'hidden' : ''}`} onClick={handleToggleClick}>
-                    <GiHamburgerMenu />
-                </div>
+                <GiHamburgerMenu className={`toggle-button ${isMobileMenuOpen ? 'hidden' : ''}`} onClick={handleToggleClick} />
+
                 {isMobileMenuOpen && (
-                    <div className="close-button" onClick={handleToggleClick}>
-                        <IoCloseSharp />
-                    </div>
+                    <IoCloseSharp className="close-button" onClick={handleToggleClick} />
                 )}
             </nav>
         </div>
