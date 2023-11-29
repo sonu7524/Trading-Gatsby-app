@@ -15,6 +15,7 @@ import ReviewContent from "../ReviewContent";
 import PhoneUI from "../PhoneUI";
 import FeaturesUI from "../FeaturesUI";
 import BenefitsUI from "../BenefitsUI";
+import PartnerBlock from "../PartnerBlock";
 let data1 =[
     {
         title:"00%",
@@ -71,6 +72,7 @@ export default function MainContent() {
             <BenefitsUI />
             <PhoneDisplay />
             <ReviewContent />
+            <PartnerBlock />
             <div className="start">
                 <h1 className="main-title">Get Started Now.</h1>
                 <img className="densityPhone" src={densityPhone} alt="densityPhone" />

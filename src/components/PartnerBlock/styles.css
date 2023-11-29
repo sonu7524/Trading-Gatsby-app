@@ -1,0 +1,80 @@
+.partner-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-between;
+    background-color: #19191D;
+    width: 100%;
+    height: 100%;
+    padding: 6rem 0rem;
+}
+.partner-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.partner-content > h1{
+    color: var(--white);
+    width: 50%;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.partner-content > p{
+    color: var(--white);
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    width: 60%;
+    text-align: center;
+}
+
+.partner-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.partner-card{
+    
+    color: black;
+    padding: 1.5rem;
+    width: 70%;
+    height: 120%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    position: relative;
+    background: url("../../assets/Frame.png") no-repeat;
+    background-position: top right;
+    background-size: 65%;
+    background-color: #434343;
+}
+
+.partner-card > p {
+    color: rgb(84, 84, 84);
+
+}
+.partner-info{
+    width: 40%;
+}
+.partner-info > h1 {
+    color: white;
+}
+.partner-info > p {
+    font-size: small;
+    color: rgb(142, 142, 142);
+}
+.partner-photo{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+}
+
