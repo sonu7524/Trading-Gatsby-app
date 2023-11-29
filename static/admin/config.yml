@@ -48,18 +48,18 @@ collections:
 
 
       - name: partner-card
-          preview: false
-          label: "Partner Card"
-          folder: "content/partnersBlock"
-          create: true
-          slug: "{{fields.partner_name}}"
-          filename: "{{fields.partner_name}}.md"
-          fields:
-            - { name: "partner_name", label: "Partner Name", widget: "string" }
-            - { name: "partner_designation", label: "Partner Designation", widget: "string" }
-            - { name: "partner_image", label: "Partner Image", widget: "image" }
-            - { name: "social_media_image", label: "Social Media Image", widget: "image" }
-            - { name: "body", label: "Body", widget: "markdown" }
+        preview: false
+        label: "Partner Card"
+        folder: "content/partnersBlock"
+        create: true
+        slug: "{{fields.partner_name}}"
+        filename: "{{fields.partner_name}}.md"
+        fields:
+          - { name: "partner_name", label: "Partner Name", widget: "string" }
+          - { name: "partner_designation", label: "Partner Designation", widget: "string" }
+          - { name: "partner_image", label: "Partner Image", widget: "image" }
+          - { name: "social_media_image", label: "Social Media Image", widget: "image" }
+          - { name: "body", label: "Body", widget: "markdown" }
         
 
 
